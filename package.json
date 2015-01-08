@@ -1,0 +1,31 @@
+{
+  "name": "patchfile",
+  "version": "1.0.0",
+  "description": "patch file",
+  "main": "lib/patchfile.js",
+  "dependencies": {
+    "checkup": "~1.0.2",
+    "daffy": "~1.0.3",
+    "execon": "~1.0.1",
+    "flop": "~1.0.26"
+  },
+  "devDependencies": {},
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git://github.com/coderaiser/node-patchfile.git"
+  },
+  "keywords": [
+    "patch",
+    "diff",
+    "file"
+  ],
+  "author": "coderaiser <mnemonic.enemy@gmail.com> (http://coderaiser.github.io/)",
+  "license": "MIT",
+  "bugs": {
+    "url": "https://github.com/coderaiser/node-patchfile/issues"
+  },
+  "homepage": "https://github.com/coderaiser/node-patchfile"
+}
