@@ -6,8 +6,8 @@
   "dependencies": {
     "checkup": "~1.0.2",
     "daffy": "~1.0.3",
-    "execon": "~1.1.0",
-    "flop": "~1.0.26"
+    "flop": "~1.0.26",
+    "try-catch": "~1.0.0"
   },
   "devDependencies": {},
   "scripts": {
