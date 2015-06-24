@@ -6,7 +6,6 @@
   "dependencies": {
     "checkup": "~1.3.0",
     "daffy": "~1.0.3",
-    "flop": "~1.2.1",
     "try-catch": "~1.0.0"
   },
   "devDependencies": {},
