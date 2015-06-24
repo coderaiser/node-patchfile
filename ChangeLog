@@ -1,3 +1,9 @@
+2015.06.24, v1.0.7
+
+feature:
+- (pachfile) fs.stat -> fs.lstat
+
+
 2015.06.24, v1.0.6
 
 feature:
