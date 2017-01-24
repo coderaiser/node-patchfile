@@ -8,8 +8,11 @@
     "daffy": "~1.0.3",
     "try-catch": "~1.0.0"
   },
-  "devDependencies": {},
+  "devDependencies": {
+    "eslint": "^3.14.0"
+  },
   "scripts": {
+    "lint": "eslint lib",
     "test": "echo \"Error: no test specified\" && exit 1"
   },
   "repository": {
