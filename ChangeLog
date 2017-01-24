@@ -1,3 +1,12 @@
+2017.01.24, v1.0.9
+
+fix:
+- (patchfile) early return
+
+feature:
+- (package) scripts: lint
+
+
 2017.01.12, v1.0.8
 
 feature:
