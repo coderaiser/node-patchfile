@@ -5,22 +5,21 @@ Patch file with given diff.
 ## Install
 
 ```
-npm i patchfile --save
+npm i patchfile
 ```
 
 ## How to use?
 
 ```js
-var daffy       = require('daffy'),
-    patchfile   = require('patchfile'),
-    patch       = daffy.createPatch('hello', 'hello world');
+const daffy = require('daffy');
+const patchfile = require('patchfile');
+const patch = daffy.createPatch('hello', 'hello world');
+const tryToCatch = require('try-to-catch');
 
 /* patch file thet not bigger then 2kb */
-
-patchfile('hello.txt', patch, {size: 2048}, function(error) {
-    if (error)
-        console.error(error.message);
-});
+const [e] = await tryToCatch(patchfile, 'hello.txt', patch, {size: 2048});
+if (e)
+    console.error(e.message);
 ```
 
 ## License

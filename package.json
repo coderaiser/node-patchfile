@@ -29,5 +29,8 @@
   "bugs": {
     "url": "https://github.com/coderaiser/node-patchfile/issues"
   },
-  "homepage": "https://github.com/coderaiser/node-patchfile"
+  "homepage": "https://github.com/coderaiser/node-patchfile",
+  "engines": {
+    "node": ">=8"
+  }
 }

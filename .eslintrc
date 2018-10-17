@@ -1,11 +1,9 @@
 {
     "env": {
         "node": true,
-        "browser": true
     },
     "parserOptions": {
-        "ecmaVersion": 6,
-        "sourceType": "module"
+        "ecmaVersion": 2018,
     },
     "rules": {
         "indent": ["error", 4],
