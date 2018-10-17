@@ -9,7 +9,7 @@
     "try-catch": "^2.0.0"
   },
   "devDependencies": {
-    "eslint": "^4.17.0"
+    "eslint": "^5.7.0"
   },
   "scripts": {
     "lint": "eslint lib",
