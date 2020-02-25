@@ -5,15 +5,19 @@
   "main": "lib/patchfile.js",
   "dependencies": {
     "checkup": "~1.3.0",
-    "daffy": "~1.0.3",
-    "try-catch": "^3.0.0"
+    "daffy": "~1.0.3"
   },
   "devDependencies": {
-    "eslint": "^6.8.0"
+    "eslint": "^6.8.0",
+    "eslint-plugin-node": "^11.0.0",
+    "eslint-plugin-putout": "^3.2.1",
+    "madrun": "^5.4.4",
+    "putout": "^7.13.4"
   },
   "scripts": {
-    "lint": "eslint lib",
-    "test": "echo \"Error: no test specified\" && exit 1"
+    "lint": "madrun lint",
+    "fix:lint": "madrun fix:lint",
+    "test": "madrun test"
   },
   "repository": {
     "type": "git",
