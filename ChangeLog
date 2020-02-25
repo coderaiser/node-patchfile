@@ -1,3 +1,12 @@
+2020.02.25, v3.0.0
+
+feature:
+- (patchfile) drop support of node < 10
+- (patchfile) rm unused try-catch
+- (package) eslint v6.8.0
+- (package) try-catch v3.0.0
+
+
 2018.10.17, v2.0.4
 
 fix:
