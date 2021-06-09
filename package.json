@@ -35,6 +35,6 @@
   },
   "homepage": "https://github.com/coderaiser/node-patchfile",
   "engines": {
-    "node": ">=10"
+    "node": ">=14"
   }
 }
