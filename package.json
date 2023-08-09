@@ -12,7 +12,7 @@
   },
   "devDependencies": {
     "c8": "^8.0.1",
-    "eslint": "^6.8.0",
+    "eslint": "^8.46.0",
     "eslint-plugin-putout": "^8.0.1",
     "madrun": "^5.4.4",
     "putout": "^31.0.4"
