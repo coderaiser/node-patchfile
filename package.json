@@ -8,7 +8,7 @@
     "daffy": "~1.0.3",
     "pullout": "^4.0.0",
     "readzip": "^1.0.1",
-    "redzip": "^2.1.3"
+    "redzip": "^3.0.0"
   },
   "devDependencies": {
     "c8": "^8.0.1",
