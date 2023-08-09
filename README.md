@@ -17,7 +17,10 @@ const patch = daffy.createPatch('hello', 'hello world');
 const tryToCatch = require('try-to-catch');
 
 /* patch file thet not bigger then 2kb */
-const [e] = await tryToCatch(patchfile, 'hello.txt', patch, {size: 2048});
+const [e] = await tryToCatch(patchfile, 'hello.txt', patch, {
+    size: 2048,
+});
+
 if (e)
     console.error(e.message);
 ```

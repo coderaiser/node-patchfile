@@ -1,6 +1,7 @@
 {
   "name": "patchfile",
   "version": "3.1.0",
+  "type": "commonjs",
   "description": "patch file",
   "main": "lib/patchfile.js",
   "dependencies": {
