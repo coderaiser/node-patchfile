@@ -15,7 +15,7 @@
     "c8": "^10.1.3",
     "eslint": "^10.0.0",
     "eslint-plugin-n": "^17.23.2",
-    "eslint-plugin-putout": "^19.0.3",
+    "eslint-plugin-putout": "^30.0.3",
     "madrun": "^9.3.1",
     "putout": "^31.0.4"
   },
