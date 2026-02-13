@@ -1,7 +1,9 @@
 import {run} from 'madrun';
 
 export default {
+    'test': () => `tape 'lib/**/*.spec.js' 'test/*.js'`,
     'lint': () => 'putout .',
     'fix:lint': () => run('lint', '--fix'),
-    'test': () => 'echo "Error: no test specified" && exit 1',
+    'coverage': () => 'c8 npm test',
+    'report': () => 'c8 report --reporter=lcov',
 };
