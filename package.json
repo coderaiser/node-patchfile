@@ -9,7 +9,7 @@
     "daffy": "~1.0.3",
     "pullout": "^5.0.1",
     "readzip": "^3.0.0",
-    "redzip": "^3.0.0"
+    "redzip": "^4.0.1"
   },
   "devDependencies": {
     "c8": "^10.1.3",
