@@ -1,6 +1,6 @@
 {
   "name": "patchfile",
-  "version": "4.0.1",
+  "version": "5.0.0",
   "type": "module",
   "description": "patch file",
   "main": "lib/patchfile.js",

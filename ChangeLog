@@ -1,3 +1,17 @@
+2026.02.13, v5.0.0
+
+feature:
+- 94169ce patchfile: drop support of node < 22
+- 9446d48 patchfile: redzip v4.0.1
+- a473289 patchfile: readzip v3.0.0
+- 27f656f patchfile: putout v41.21.0
+- 829fb0b patchfile: pullout v5.0.1
+- cf26d6e patchfile: madrun v12.1.3
+- 67cca17 patchfile: eslint-plugin-putout v30.0.3
+- 9db0635 patchfile: eslint-plugin-n v17.23.2
+- e6cb16b patchfile: eslint v10.0.0
+- 59f4257 patchfile: c8 v10.1.3
+
 2023.08.10, v4.0.1
 
 feature:
