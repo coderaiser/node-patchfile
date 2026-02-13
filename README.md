@@ -14,7 +14,7 @@ npm i patchfile
 const daffy = require('daffy');
 const patchfile = require('patchfile');
 const patch = daffy.createPatch('hello', 'hello world');
-const tryToCatch = require('try-to-catch');
+const {tryToCatch} = require('try-to-catch');
 
 /* patch file thet not bigger then 2kb */
 const [e] = await tryToCatch(patchfile, 'hello.txt', patch, {
