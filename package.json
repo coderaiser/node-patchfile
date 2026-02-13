@@ -1,7 +1,7 @@
 {
   "name": "patchfile",
   "version": "4.0.1",
-  "type": "commonjs",
+  "type": "module",
   "description": "patch file",
   "main": "lib/patchfile.js",
   "dependencies": {
@@ -39,6 +39,6 @@
   },
   "homepage": "https://github.com/coderaiser/node-patchfile",
   "engines": {
-    "node": ">=16"
+    "node": ">=22"
   }
 }
